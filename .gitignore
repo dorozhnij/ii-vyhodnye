@@ -1,0 +1,5 @@
+# Reference mockups / source photos (landing uses assets/)
+2026-*.jpg
+2026-*.png
+.DS_Store
+*.local
