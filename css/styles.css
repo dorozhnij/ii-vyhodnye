@@ -319,6 +319,7 @@ a:hover {
 .hero-visual {
   position: relative;
   margin-inline: calc(-1 * var(--space));
+  isolation: isolate;
 }
 
 .hero-art {
@@ -327,19 +328,6 @@ a:hover {
   height: auto;
   max-width: 560px;
   margin-inline: auto;
-}
-
-.hero-visual::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(
-      closest-side at 50% 50%,
-      transparent 55%,
-      var(--surface) 100%
-    );
 }
 
 /* Sections */
