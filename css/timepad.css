@@ -1,9 +1,25 @@
 /* Timepad widget theme — ИИ-выходные
    Loaded inside the widget iframe via loadCSS.
-   Brand: #6139E7 · fonts: Unbounded + Manrope
+   Brand: #6139E7 · fonts: Lack + Manrope
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: "Lack";
+  src: url("https://dorozhnij.github.io/ii-vyhodnye/fonts/Lack-Regular.otf") format("opentype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lack";
+  src: url("https://dorozhnij.github.io/ii-vyhodnye/fonts/Lack-Italic.otf") format("opentype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
 
 :root {
   --tp-accent: #6139e7;
@@ -52,7 +68,7 @@ a:active {
 .b-unit__header_payment_value,
 .t-caption,
 h1, h2, h3, h4 {
-  font-family: "Unbounded", "Manrope", system-ui, sans-serif !important;
+  font-family: "Lack", "Manrope", system-ui, sans-serif !important;
   color: var(--tp-ink) !important;
   letter-spacing: -0.02em;
   font-weight: 600 !important;
@@ -214,7 +230,7 @@ table.table,
 }
 
 .table > thead > tr > th {
-  font-family: "Unbounded", "Manrope", system-ui, sans-serif !important;
+  font-family: "Lack", "Manrope", system-ui, sans-serif !important;
   font-weight: 600 !important;
   color: var(--tp-muted) !important;
   text-transform: none;

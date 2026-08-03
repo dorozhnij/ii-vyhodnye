@@ -1,4 +1,21 @@
 /* ИИ-выходные — mobile-first landing */
+
+@font-face {
+  font-family: "Lack";
+  src: url("../fonts/Lack-Regular.otf") format("opentype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lack";
+  src: url("../fonts/Lack-Italic.otf") format("opentype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   --accent: #6139e7;
   --accent-ink: #ffffff;
@@ -26,7 +43,7 @@
   --radius-sm: 8px;
   --radius-lg: 22px;
 
-  --font-display: "Unbounded", system-ui, sans-serif;
+  --font-display: "Lack", system-ui, sans-serif;
   --font-body: "Manrope", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
