@@ -731,6 +731,11 @@ a:hover {
   max-width: 720px;
   margin-inline: auto;
   min-height: 320px;
+  padding: 0.25rem;
+  border-radius: var(--radius-lg);
+  background: var(--surface-elevated);
+  border: 1.5px solid var(--hairline);
+  overflow: hidden;
 }
 
 .timepad-wrap iframe,
