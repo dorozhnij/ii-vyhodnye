@@ -743,6 +743,19 @@ a:hover {
   color: var(--ink-muted);
 }
 
+.host-link {
+  margin-top: 0.85rem !important;
+}
+
+.host-link a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.host-link a:hover {
+  text-decoration: underline;
+}
+
 /* Timepad */
 .timepad-wrap {
   max-width: 720px;
